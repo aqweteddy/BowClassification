@@ -1,7 +1,7 @@
 # BowClassifier
 
+* 以 TF-IDF 和 bag-of-word 來實作簡單的文章分類器
 * 速度快
-* 
 
 ## data
 
@@ -18,7 +18,7 @@
 * best: 0.786
 * 同份資料 roberta 表現: 0.87
 
-###config
+### config
 
 ```json
 {
@@ -36,7 +36,7 @@
     "only_test": false
 }
 ```
-### num_per_category
+## num_per_category
 
 * 5000: 0.7466296286857463
 * 10000:0.7536124773821963
