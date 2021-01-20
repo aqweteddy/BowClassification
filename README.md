@@ -1,8 +1,22 @@
 # BowClassifier
 
-## BEST
+* 速度快
+* 
 
+## data
+
+* 使用 ettoday 2016 新聞資料(不公開)
+
+## 作法
+
+1. 以 TF-IDF 法計算每個類別($c$)的關鍵字($k_i$)和分數($p_i$)
+2. 掃過每篇文章，如果某文章出現關鍵字$k_i$，則類別 $c$ 的累積分數加 $p_i$
+
+## benchmark
+
+* accuracy
 * best: 0.786
+* 同份資料 roberta 表現: 0.87
 
 ###config
 
